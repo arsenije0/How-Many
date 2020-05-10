@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" type="image/png" href="img/l.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b921848068.js" crossorigin="anonymous"></script>
+    <title>How Many</title>
+</head>
+<body>
+    
+    <div id="header">
+        <div id="fan-two">
+            <div id="about" class="nav">ABOUT</div>
+            <div id="home" class="nav">HOME</div>
+        </div>
+
+    </div>
+    <div id="logo">HOW MANY?</div>
+
+    <div id="wrapper-one">
+        <div id="text-one">
+            <span>WELCOME TO HOW MANY</span><br><br>
+            Here, you can compare the data between all the countries of the world.
+        </div>
+        <div id="line-container-1" class="line-container">
+            <div id="line1" class="line"></div>
+        </div>
+        
+    </div>
+
+    <div id="wrapper-two">
+        
+        <div id="c-one" class="col"></div>
+        <div id="c-two" class="col"></div>
+        <div id="p-one" class="col"></div>
+        <div id="p-two" class="col"></div>
+        <div id="p-three" class="col"></div>
+        <div id="vision">VISUALIZE THE NUMBERS</div>
+
+    </div>
+
+    <div id="wrapper-three">
+        <div id="paralaxa-div"></div>
+        <div id="btn-div">
+             <div id="btn-one" class="btn">NEXT</div>
+        </div>
+
+    </div>
+
+    <div id="wrapper-four">
+
+        <form action="#" id="form-one" onsubmit="return false;" autocomplete="off">
+            <div id="error-div" class="error-div-cl"></div>
+
+            <span>Pick countries you wish to compare: <br><br></span>
+            <input  type="text" 
+                    name="cont" 
+                    id="cont" 
+                    size="30" 
+                    onkeyup="hintBar(this.value);" 
+                    oninput="onlyTxtValidation(this);"
+                    maxlength="30" />
+            
+            <div id="hint-container">
+                <div id="hint"></div>
+            </div>
+
+            <button type="submit" style="display: none;"></button>
+        </form>
+
+        <div id="rezz-container"></div>
+
+    </div>
+
+    <div id="btn-div-two">
+        <div id="error-div-2" class="error-div-cl"></div>
+        <div id="btn-two">
+            <span>NEXT</span>
+        </div>
+    </div>
+
+    <div id="chart-wrapper">
+        <div id="rep-container">
+            <h1>REPORT</h1>
+            <p id="report-card"></p>
+        </div>
+        <div id="wrapper-five" class="chart-container ws">
+            <h1 class="ch1">POPULATION</h1>
+            <p class="boldy">in millions</p>
+        </div>
+        <div id="wrapper-six" class="chart-container ws">
+            <h1 class="ch1">LAND AREA</h1>
+            <p class="boldy">in km^2</p>
+        </div>
+        <div id="wrapper-seven" class="chart-container ws">
+            <h1 class="ch1">NOMINAL GDP</h1>
+            <p class="boldy">in billions of USD</p>
+        </div>
+    </div>
+
+    <div id="wrapper-about" class="ws">
+        <h1>ABOUT HOW MANY</h1>
+        <div id="line-container-2" class="line-container">
+            <div id="line2" class="line"></div>
+        </div>
+        <p>There are 7 billion humans on this planet doing stuff that humans do, much like you. Divided by invisible lines we call countries, humans are for the most part segregated from the vastness of humanity. Ever wondered how many of your countrymen there are in comparison to some other congregation of people? How do you fair economically as a collective? Well, in that case, this is the right place to acquire that perspective.<br><br>For more information or any additional<br> questions you might have:</p> 
+        <div id="father">
+            <div id="mailSystem" onclick="document.getElementById('myMail').click();">
+                <div id="envelope"></div>
+            </div>
+            <div id="onHover">arsenijemarkovic0@gmail.com</div>
+            <a style="display: none;" id="myMail" href="mailto:arsenijemarkovic0@gmail.com">arsenijemarkovic0@gmail.com</a>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div id="logo-two">HOW MANY?</div>
+        <div id="fan"></div>
+        <div id="nav-container">
+            <a id="f" class="social" href="https://www.facebook.com/" target="_blank">
+                <span>f</span>
+            </a>
+            <a id="t" class="social" href="https://twitter.com/" target="_blank">
+                <span>t</span>
+            </a>
+            <a id="i" class="social" href="https://www.instagram.com/" target="_blank">
+                <span>i</span>
+            </a>
+        </div>
+        
+    </div>
+
+    <script src="js/Chart.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
